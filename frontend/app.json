@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "FlerimoAgro",
+    "slug": "flerimoagro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#2d6a4f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.flerimo.agro"
+    },
+    "android": {
+      "package": "com.flerimo.agro",
+      "adaptiveIcon": {
+        "backgroundColor": "#2d6a4f"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
