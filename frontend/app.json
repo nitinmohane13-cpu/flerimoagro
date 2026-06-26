@@ -4,6 +4,7 @@
     "slug": "flerimoagro",
     "version": "1.0.0",
     "orientation": "portrait",
+    "newArchEnabled": true,
     "userInterfaceStyle": "light",
     "splash": {
       "resizeMode": "contain",
@@ -15,12 +16,14 @@
     },
     "android": {
       "package": "com.flerimo.agro",
+      "usesCleartextTraffic": true,
       "adaptiveIcon": {
         "backgroundColor": "#2d6a4f"
       }
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      "expo-asset"
     ]
   }
 }

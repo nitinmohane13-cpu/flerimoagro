@@ -18,7 +18,7 @@ app.use((req, res) => res.status(404).json({ error: 'Route not found' }));
 
 // Init DB then start server
 getDb().then(() => {
-  app.listen(PORT, () => {
+  app.listen(PORT, '0.0.0.0', () => {
     console.log(`\n🌿 FlerimoAgro API running on http://localhost:${PORT}`);
     console.log(`   GET  /api/products`);
     console.log(`   GET  /api/categories`);
